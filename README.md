@@ -1,1 +1,1 @@
-# mermaid-charts
+# Mermaid-Charts
