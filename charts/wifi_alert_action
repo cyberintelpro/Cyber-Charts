@@ -1,0 +1,14 @@
+graph LR
+    id3>DD:EE:FF Present]-->id4{report}
+    id3-->id5{determine state}
+    id5-->id6>unassociated]
+    id6-->id9{fix location}
+    id5-->id7>associated]
+    id7-->id8{lock on channel}
+    id8-->id10>data traffic?]
+
+
+
+
+    id1>Indicator/Alert]
+    id2{Action/SIR}

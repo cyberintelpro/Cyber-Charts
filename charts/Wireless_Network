@@ -1,0 +1,8 @@
+graph TD
+    id1(AP)
+    id1-.-STA1
+    click STA1 callback "AA:BB:CC:DD:EE:FF"
+    id1-.-STA2["&#128223;"]
+    id1-.-STA3["&#128187;"]
+    id1-.-STA4["&#128241;"]
+    click STA4 callback "IOS10 AA:BB:CC:DD:EE:FF"

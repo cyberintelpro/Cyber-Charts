@@ -1,0 +1,13 @@
+sequenceDiagram
+  participant Client
+  participant Access Point
+    Access Point-->>Client: ANonce
+    loop
+    Client->>Client: Client constructs PTK
+    end
+    Client-->>Access Point: SNonce  + MIC
+    loop
+    Access Point->>Access Point: AP constructs PTK
+    end
+    Access Point-->>Client: GTK + MIC
+    Client-->>Access Point: ACK
